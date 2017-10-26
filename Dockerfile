@@ -1,5 +1,7 @@
 FROM nginx:mainline-alpine
 
+LABEL maintainer Oscar Barrett
+
 ARG version
 LABEL version $version
 
